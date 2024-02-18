@@ -1,0 +1,1 @@
+This is a simple app that uses api to return the current rates of various crypto currency

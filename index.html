@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+</head>
+
+<body>
+    <h1>Crypto Currency Tracker</h1>
+    <h4>By Nalin</h4>
+    <form action="##" id="searchForm">
+        <select name="cryptotype">
+            <option value="bitcoin">Bitcoin</option>
+            <option value="dogecoin">Dogecoin</option>
+            <option value="solana">Ethereum</option>
+        </select>
+        <select name="currencytype">
+            <option value="USD">US Dollars</option>
+            <option value="INR">Indian Ruppee</option>
+            <option value="EUR">Euro</option>
+        </select>
+        <button type="submit">Get Price</button>
+    </form>
+    <h4>Price:</h4>
+    <p id="price"></p>
+    <h4>Volume:</h4>
+    <p id="volume"></p>
+    <h4>Change:</h4>
+    <p id="change"></p>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
